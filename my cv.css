@@ -1,0 +1,43 @@
+*{
+    /* background:palegoldenrod; */
+}
+body{
+    background: rgb(216, 198, 198);
+
+}
+.continer{
+    width:100vh;
+    margin: auto;
+    overflow: hidden;
+    background:rgb(221, 208, 190);
+}
+.continer .box-pic{
+    width: 220px;
+    height: 250px;
+    margin-left: 10%;
+    border-radius: 20px;
+    /* background-color: red; */
+}
+.continer .box-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.continer h1{
+    color: rgb(119, 23, 215);
+    display:block;
+    font-size: 20px;
+    margin-left:50px;
+    justify-content: center;
+    align-items: center;
+}
+.continer .h2 p{
+    font-size: 16px;
+    top: 0;
+    color: black;
+    /* color: firebrick; */
+}
+.continer h3{
+    color: black;
+    margin-left: 20px;
+}
